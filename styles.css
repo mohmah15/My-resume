@@ -1,2 +1,26 @@
-h1 {font-size: 15mm;}
-.job {color:gray}
+h1 {font-size: 15mm;color:#001F3F;}
+.job {color:gray ;color:#001F3F;  }
+
+h2 {color:#3A6D8C }
+h3 {color:#6A9AB0}
+li {color:#d49919; }
+h1{
+    display: inline;
+}
+#image{ float:left   ; border-radius: 20%; border-color: white; border-width: 5px;
+
+    }
+
+#maindiv {position:relative ; left: 10px; top :20px
+
+}
+#edu{clear: left;}
+
+body{
+    margin-left: 10px;
+}
+
+@media (max-width:600px){
+    h1 {font-size: 30px;color:#001F3F;}
+    h2 {color:#3A6D8C ; font-size: 15px;}
+}
